@@ -1,42 +1,33 @@
-//: Programmers use whatever tools they have available to solve all kinds of problems. (They don't have to be serious problems, sometimes a problem can be "I'm bored and want a fun game to play.")
-//:
-//: As you move through this course you'll learn more and more ways of getting things done, of using code to solve problems and build great apps. Things will start small and simple with some basics, but as the number of tools you have grows, you'll be able to do more and more with what you know.
-//:
-//: As a programmer, sometimes you solve problems and write apps for yourself but a lot of the time you help other people solve their problems. Besides learning how to write code, it's really useful to be able to imagine different kind of problems and think about how you might solve them.
-//:
-//: #### Pet Problem
-//: Imagine your friend is putting together a pet show and needs to keep track of how many of each kind of animal people are going to be bringing.
-//: Your friend also needs to keep track of how many total animals and how many mammals.
-//:
-//: Let's say all you have with you is a laptop with Xcode Playgrounds on it.  Maybe we can help your friend out.
-//:
-//: Using what we know so far, you could keep track of the count for each animal using a comment and a number like like this:
+/*:
+## A Single Piece of Work
+ 
+ You can combine code that you may want to use more than once in a function. Similar to the way you *declared* the names of constants using `let`, you can declare a function using `func`.
+ 
+ Because functions can contain multiple lines of code, the declaration is a little more complicated. Here's a very simple function:
+ */
+func rowTheBoat() {
+    print("Row, row, row your boat")
+    print("Gently down the stream")
+}
+/*:
+ The _name_ of the function is `rowTheBoat()`. You'll learn more about the `()` later on, but for now remember that any identifier followed by parentheses is a function.
 
-// Number Of Dogs
-5
+ The code between the two braces: `{`...`}` is called the *body* of the function.
+ 
+ These lines of code are different from others you’ve seen in playgrounds. Nothing is displayed in the results sidebar or the console. That’s because _declaring_ a function only describes what the function would do if it ever ran. 
+ 
+ To actually run the code, you have to _call_ the function. Typing the name of the function will call the function. Uncomment the line below:
+ */
+//rowTheBoat()
+/*:
+ When you've called a function in a playground, you'll see results appear in the sidebar. Calling the `rowTheBoat` function will also print text in the console area below.
 
-// Number Of Cats
-4
+ - callout(Exercise): Write your own function that prints something to the console, then call your new function. Pay attention to the example above so that you know where all the parentheses `()` and braces `{}` should go.
+ What happens if you call your function more than once?
+ */
 
-// Number Of Turtles
-3
+/*:
+Next, learn how to think about tasks and divide them up in a way that makes sense.
 
-//: And then you could copy those numbers down and let the Playground do some math for you, like this:
-
-// Total Number Of Animals
-5 + 4 + 3
-
-// Total Number Of Mammals
-5 + 4
-
-//: - experiment: As the week goes on, you get more information about people's pets.  Update the code above for the changes.
-//:
-//: For example, if another person is bringing a dog, keep track of the change by updating the `Number Of Dogs` from `5` to `6` and change the `5` to a `6` everywhere else it appears (`Total Number Of Animals` and `Total Number Of Mammals`).
-//:
-//: If someone is bringing a new kind of animal, add a new comment (`// Number Of Hamsters` for instance) with the correct number underneath and then update the totals.
-//:
-//: - Another person is bringing a dog.
-//: - One of the turtles got sick and won't come.
-//: - Another person is bringing a cat.
-//: - Someone is bringing a hamster (a mammal).
-//: - Someone is bringing an iguana (definitely not a mammal).
+[Previous](@previous)  |  page 4 of 12  |  [Next: Breaking It Down](@next)
+ */
