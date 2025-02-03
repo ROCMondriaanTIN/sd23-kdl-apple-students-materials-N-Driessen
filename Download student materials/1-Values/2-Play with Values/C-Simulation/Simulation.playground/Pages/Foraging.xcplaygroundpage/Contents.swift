@@ -39,12 +39,12 @@ startSimulation()
  - Experiment: 
  Try modifying these parameters, along with the others from previous pages, to change the foraging behavior of the colony.
  */
-//homePheromoneDepositRate = 100
-//foodPheromoneDepositRate = 100
-//homePheromoneEvaporationRate = 50
-//foodPheromoneEvaporationRate = 50
+var homePheromoneDepositRate: Double = 100
+var foodPheromoneDepositRate: Double = 100
+var homePheromoneEvaporationRate: Double = 50
+var foodPheromoneEvaporationRate: Double = 50
 
-//environmentCellSize = 10
+var environmentCellSize: Double = 10
 //numberOfAnts = 100
 
 //numberOfAnts = 20
