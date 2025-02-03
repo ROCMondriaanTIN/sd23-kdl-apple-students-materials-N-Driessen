@@ -26,15 +26,8 @@ Your friend is done with the pet show. With your help, it was a big success. Now
  - callout(Exercise): Using the code above as a reference, use `let` statements to define constants to better solve your friend’s problem.\
 Add your code below. To help you get started, the constant `numberOfTickets` is already defined.
  */
-let numberOfTickets: Double = 150
+let numberOfTickets = 150
 
-var ticketPrice: Double = 10
-
-let roomRentalFee: Double = 1000
-
-var posterCost: Double = 40
-
-var totalTicketValue = numberOfTickets * ticketPrice
-var totalExpenses = roomRentalFee + posterCost
-var totalIncomeOfShow = totalTicketValue - totalExpenses
-print("Total Income Of Shows: ", totalIncomeOfShow)
+/*:
+[Previous](@previous)  |  page 10 of 14  |  [Next: Exercise: Lottery Tickets](@next)
+ */
